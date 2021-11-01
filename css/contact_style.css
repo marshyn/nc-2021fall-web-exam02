@@ -1,0 +1,70 @@
+ul {
+	display: inline;
+	list-style-type: none;
+	margin: 1%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+li {
+	padding: 4%;
+	float: left;
+}
+
+#acicon {
+	max-width: 300px;
+	height: auto;
+	content: url(../img/acnh-icon.png);
+}
+
+#icons {
+	display: inline-block;
+	width: 20px;
+	padding-right: 5px;
+}
+
+.req {
+	color: #AC251B;
+}
+
+h3 {
+	font-size: 130%;
+}
+
+
+label {
+	font-size: 110%;
+}
+
+/* styling for submit button */
+#submit {
+	width: 10%;
+    display: inline-block;
+    padding: 1.6%;
+    margin: 0.5%;
+    border-radius: 10px;
+    font-size: 90%;
+    color: #000;
+    background-image: linear-gradient(#FFD57E 0%, #FBC151 51%, #B77823 100%);
+    cursor: pointer;
+}
+
+#submit:hover {
+	background: #FFD57E;
+}
+
+#submit:active {
+	color: #fff;
+	background: #B77823;
+}
+
+
+
+#centerButton {
+	padding: 1%;
+	width: 12%;
+
+	margin-top: 0%;
+	margin-left: 45%;
+	margin-right: 45%;
+}

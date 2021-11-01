@@ -1,0 +1,54 @@
+/* layout styling (containers) */
+
+
+#main-content {
+	display: flex;
+	align-self: center;
+	text-align: left;
+	overflow: scroll;
+	width: 90%;
+	height: 100%;
+
+	background-color: #ccc; /* light gray used to visually see container */
+
+	padding: 1%;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-bottom: 3%;
+	margin-left: auto;
+}
+
+#main-content > div {
+	flex: wrap;
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	margin: 2%;
+	padding: 1%;
+	overflow: scroll;
+
+}
+
+/* layout styling END */
+
+
+/* styling for every button */
+button.other {
+    display: inline-block;
+    padding: 4%;
+    margin: 6%;
+    border-radius: 10px;
+    font-size: 90%;
+    color: #000;
+    background-image: linear-gradient(#FFD57E 0%, #FBC151 51%, #B77823 100%);
+    cursor: pointer;
+}
+
+button.other:hover {
+	background: #FFD57E;
+}
+
+button.other:active {
+	color: #fff;
+	background: #B77823;
+}

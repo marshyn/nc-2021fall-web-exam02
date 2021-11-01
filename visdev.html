@@ -1,0 +1,127 @@
+<!-- front end design and development page -->
+<!-- contains the sites I have made and been a part of making -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>micro micro portfolio</title>
+		<!-- importing all the style sheets -->
+		<link rel="stylesheet" href="css/typography.css"/> <!-- font consistency -->
+		<link rel="stylesheet" href="css/header_style.css"/>
+		<link rel="stylesheet" href="css/footer_style.css"/>
+		<link rel="stylesheet" href="css/layout_style.css"/>
+
+		<!-- page-specific style sheets -->
+		<link rel="stylesheet" href="css/visdev_style.css"/>
+
+	</head>
+
+		<nav>
+			<section id="header">
+
+					    <!-- home button logo -->
+						<div id="headerLogo">
+							<a href="index.html"><img width=20% alt="micro micro logo in alternating red, yellow, and blue." src="img/micromicro.png"></img></a>
+						</div>
+					    <!-- home button logo END -->
+
+
+				      <div id="navbar" class="navbar">
+
+				      <!-- "about" button: dropdown menu-->
+				        <div id="redNav" class="dropdown">
+				            <button id="redNav" class="dropbtn">about</button>
+					          <div id="redNav" class="dropdown-content">
+					            <a href="about.html">about</a>
+					            <a href="resume.html">resume</a>
+					          </div>
+				         </div> 
+				      <!-- "about" button END -->
+
+
+				      <!-- "works" button: dropdown menu-->
+				        <div id="yellowNav" class="dropdown">
+				            <button id="yellowNav" class="dropbtn">works</button>
+					          <div id="yellowNav" class="dropdown-content">
+					            <a href="art.html">artwork</a>
+					            <a href="visdev.html">visual development</a>
+					          </div>
+				         </div> 
+				      <!-- "works" button END -->
+
+
+				      <!-- "contact" button: dropdown menu-->
+				        <div id="blueNav" class="dropdown">
+				            <button id="blueNav" class="dropbtn">contact</button>
+					          <div id="blueNav" class="dropdown-content">
+					            <a href="contact.html">contact</a>
+					            <a href="socialmedia.html">social media</a>
+					          </div>
+				         </div> 
+				      <!-- "contact" button END -->
+
+					</div> <!-- div class navbar closing tag -->
+			</section>
+		</nav>
+  <!-- navigational header END-->
+
+
+	<body>
+		<h1>Visual Development</h1>
+		<h2>For art related work, see <a href="art.html">Artwork</a>.</h2>
+		<p>The work below are assignments and projects for Front-End Web Design & Development, an introductory computer science course at New College of Florida.</p>
+		
+			<!-- row 1 -->
+			<section id="main-content">
+				<div class="visdev" id="band">
+					<h3>Mock Band website</h3>
+					<a href="https://marshyn.github.io/nc-2021fall-web-exam01/index.html"><img width=100% alt="Mock Band website preview." src="img/bandmockpreview.png"></img></a>
+
+					<a href="https://marshyn.github.io/nc-2021fall-web-exam01/index.html"><button class="other" id="centerButton" alt="Button to live preview of mock band website.">live website</button></a>
+				</div>
+
+
+				<div class="visdev" id="cookie">
+					<h3>Mock Cookie Store website (collaborative)</h3>
+					<!--
+					the GitHub hosted version of the site does not actually work as there never was an index page for it, and to rename all the files and paths would be a bit much currently.
+					-->
+					<a href="https://marshyn.github.io/nc-2021fall-webdes-collab/"><img width=100% alt="Mock Cookie Store website preview." src="img/cookiemockpreview.png"></img></a>
+
+					<a href="https://marshyn.github.io/nc-2021fall-webdes-collab/"><button class="other" id="centerButton" alt="Button to live preview of mock cookie store website.">live website</button></a>
+				</div>
+			</section>
+
+			<!-- row 2 -->
+			<section id="main-content">
+				<div class="visdev" id="metz-redesign">
+					<h3>"Metz" Cafeteria Redesign Prototype (collaborative)</h3>
+					<!-- the proto.io link no longer works as the free trial is over. -->
+					<a href="https://pr.to/X2U7A2/"><iframe width=100% alt="Metz redesign prototype video preview." src="img/metzprototype.mp4"></iframe></a>
+
+					<a href="https://pr.to/X2U7A2/"><button class="other" id="centerButton" alt="Button to interactive preview of Metz redesign prototype.">preview</button></a>
+				</div>
+
+
+				<div class="visdev" id="metz-website">
+					<h3>"Metz" Cafeteria Redesign website (collaborative)</h3>
+
+					<a href="https://blaze500.github.io/MetzRedesignTaxEvasion/index.html"><iframe width=100% alt="Metz redesign website video preview." src="img/metzpreview.mp4"></iframe></a>
+
+					<a href="https://blaze500.github.io/MetzRedesignTaxEvasion/index.html"><button class="other" id="centerButton" alt="Button to live preview of Metz redesign website.">live website</button></a>
+				</div>
+			</section>
+
+
+		<!-- importing all the JS files -->
+		<script src="js/header_script.js"></script>
+		<script src="js/content-write.js"></script>
+		<script src="js/footer_script.js"></script>
+	</body>
+
+
+	<footer>
+		<section id="footer"></section>
+	</footer>	
+</html>

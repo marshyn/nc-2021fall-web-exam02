@@ -1,0 +1,15 @@
+h3 { 	/* overrides h3 styling in typography.css */
+	font-size: 150%;
+}
+
+iframe {
+	border: 0;
+}
+
+#centerButton {
+	padding: 1%;
+	width: 20%;
+
+	margin-top: 0%;
+	margin-left: 39%;
+}

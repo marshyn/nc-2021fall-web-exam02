@@ -1,0 +1,43 @@
+/* all artworks */
+
+.art {
+	max-width: 100%;
+	height: auto;
+}
+
+#banhmi {
+	content: url(../img/works/banhmi.png);
+}
+
+#dogs {
+	content: url(../img/works/dogs.png);
+}
+
+#ferrand {
+	content: url(../img/works/ferrand.png);
+}
+
+#linkbotw {
+	content: url(../img/works/linkbotw.png);
+}
+
+#landscape {
+	content: url(../img/works/landscape.jpg);
+}
+
+#prince {
+	content: url(../img/works/prince.png);
+}
+
+#shadow {
+	content: url(../img/works/shadow.png);
+}
+
+#spider {
+	content: url(../img/works/spider.png);
+}
+
+#windmills {
+	content: url(../img/works/windmills.jpg);
+}
+

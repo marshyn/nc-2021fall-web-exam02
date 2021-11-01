@@ -1,0 +1,19 @@
+ul {
+	display: inline;
+	list-style-type: none;
+	margin: 1%;
+	padding: 1%;
+	overflow: hidden;
+}
+
+li {
+	padding: 4%;
+	float: left;
+}
+
+
+#icons {
+	display: inline-block;
+	width: 20px;
+	padding-right: 5px;
+}

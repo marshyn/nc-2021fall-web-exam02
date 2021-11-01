@@ -1,0 +1,107 @@
+<!-- index/home page -->
+<!-- template page -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>micro micro portfolio</title>
+		<!-- importing all the style sheets -->
+		<link rel="stylesheet" href="css/typography.css"/> <!-- font consistency -->
+		<link rel="stylesheet" href="css/header_style.css"/>
+		<link rel="stylesheet" href="css/footer_style.css"/>
+		<link rel="stylesheet" href="css/layout_style.css"/>
+
+		<!-- page-specific style sheets -->
+		<link rel="stylesheet" href="css/index_style.css"/>
+		<link rel="stylesheet" href="css/art_style.css"/>
+
+	</head>
+
+		<nav>
+			<section id="header">
+
+					    <!-- home button logo -->
+						<div id="headerLogo">
+							<a href="index.html"> <!-- home button is the image -->
+								<img class="headerLogo" width=20% alt="micro micro logo in alternating red, yellow, and blue." src="img/micromicro.png"></img>
+							</a>
+						</div>
+					    <!-- home button logo END -->
+
+
+				      <div id="navbar" class="navbar">
+
+				      <!-- "about" button: dropdown menu-->
+				        <div id="redNav" class="dropdown">
+				            <button id="redNav" class="dropbtn">about</button>
+					          <div id="redNav" class="dropdown-content">
+					            <a href="about.html">about</a>
+					            <a href="resume.html">resume</a>
+					          </div>
+				         </div> 
+				      <!-- "about" button END -->
+
+
+				      <!-- "works" button: dropdown menu-->
+				        <div id="yellowNav" class="dropdown">
+				            <button id="yellowNav" class="dropbtn">works</button>
+					          <div id="yellowNav" class="dropdown-content">
+					            <a href="art.html">artwork</a>
+					            <a href="visdev.html">visual development</a>
+					          </div>
+				         </div> 
+				      <!-- "works" button END -->
+
+
+				      <!-- "contact" button: dropdown menu-->
+				        <div id="blueNav" class="dropdown">
+				            <button id="blueNav" class="dropbtn">contact</button>
+					          <div id="blueNav" class="dropdown-content">
+					            <a href="contact.html">contact</a>
+					            <a href="socialmedia.html">social media</a>
+					          </div>
+				         </div> 
+				      <!-- "contact" button END -->
+
+					</div> <!-- div class navbar closing tag -->
+			</section>
+		</nav>
+  <!-- navigational header END-->
+
+
+	<body>
+		<h1>Marshall Huynh</h1>
+		<section id="main-content">
+			<div id="icon" alt="Profile picture of Marshall as an Animal Crossing New Horizons villager sitting on a rock."></div>
+			
+			<div>
+				<h2>About</h2>
+				<p class="caption">illustrator, digital painter</p>
+				<p>New College of Florida, art major</p>
+				<p><a class="NCFemail" href="mailto:marshall.huynh24@ncf.edu"></a></p>
+				<br \>
+				<a href="about.html"><button class="other" alt="Button to read more about Marshall.">more about Marshall</button></a>
+			</div>
+		</section>
+
+
+		<h1>Works</h1>
+		<section id="main-content">
+			<div class="art" id="shadow"></div>
+			<div class="art" id="banhmi"></div>
+			<div class="art" id="windmills"></div>
+		</section>
+
+		<a href="art.html"><button class="other" id="centerButton" alt="Button to see more artworks.">more artworks</button></a>
+
+		<!-- importing all the JS files -->
+		<script src="js/header_script.js"></script>
+		<script src="js/content-write.js"></script>
+		<script src="js/footer_script.js"></script>
+	</body>
+
+
+	<footer>
+		<section id="footer"></section>
+	</footer>	
+</html>

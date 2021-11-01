@@ -1,0 +1,33 @@
+#icon {
+	max-width: 300px;
+	height: auto;
+	content: url(../img/acnh-icon.png);
+}
+
+p.caption {
+	font-style: italic;
+	font-variant-caps: all-petite-caps;
+	font-weight: bolder;
+	padding-left: 6%;
+	margin-top: -4%;
+	color: rgba(0, 0, 0, .5);
+}
+
+a.NCFemail::after {
+	text-decoration: underline;
+	content: "marshall.huynh24@ncf.edu";
+	color: #2446BC;
+}
+
+a.NCFemail:hover {
+	cursor: pointer;
+}
+
+#centerButton {
+	padding: 1%;
+	width: 12%;
+
+	margin-top: 0%;
+	margin-left: 45%;
+	margin-right: 45%;
+}

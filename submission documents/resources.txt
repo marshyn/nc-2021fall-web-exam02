@@ -1,0 +1,25 @@
+resources.txt
+
+Marshall Huynh
+
+icons are from FontAwesome
+Can be found here:
+https://faicons.com/
+Or here (there are various versions):
+https://fontawesome.com/
+
+Flexbox
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox
+
+Top navigation with dropdown
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar
+
+content property in CSS
+https://www.w3schools.com/cssref/pr_gen_content.asp
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_content
+
+font-weight property in CSS
+https://www.w3schools.com/cssref/pr_font_weight.asp
+
+iframe tag in HTML
+https://www.w3schools.com/html/html_iframe.asp

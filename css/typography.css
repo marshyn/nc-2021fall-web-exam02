@@ -1,0 +1,57 @@
+/* typography styling */
+
+* {  /* applies the font to everything text-based */
+	font-family: Trebuchet MS, Calibri, Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+	font-size: 175%;
+	font-variant-caps: all-petite-caps;
+	margin-left: 3%;
+}
+
+h2 {
+	font-size: 150%;
+	font-variant-caps: all-petite-caps;
+	margin-left: 3%;
+}
+
+
+h3 {
+	font-size: 120%;
+	font-variant-caps: all-petite-caps;
+	margin-left: 3%;
+}
+
+
+body {
+	font-size: 100%;
+}
+
+p {
+	padding: 2%;
+
+}
+
+/* styling for links */
+a:link {
+	text-decoration: underline;
+	color: #2446BC;
+}
+
+a:visited {
+	color: #0E2393;
+}
+
+
+
+a:hover {
+	color: #8998CD;
+	cursor: pointer;
+}
+
+
+
+
+/* typography styling END */

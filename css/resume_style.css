@@ -1,0 +1,31 @@
+#resume {
+	display: flex;
+	align-self: center;
+	text-align: center;
+
+	width: 90%;
+
+	background-color: #ccc; /* light gray used to visually see container */
+
+	padding: 1%;
+	margin-top: 3%;
+	margin-right: auto;
+	margin-bottom: 3%;
+	margin-left: auto;
+}
+
+#resume > div {
+	background-color: #fff;
+
+	width: 100%;
+	min-height: 500px;
+
+	margin: 2%;
+	padding: 2%;
+	overflow: scroll;
+}
+
+iframe {
+	height: 200%;
+	width:  100%;
+}
